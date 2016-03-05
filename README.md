@@ -16,6 +16,7 @@ Update: (6 Nov 2015) The latest version of SQLiteDB will break existing code sin
 Important: If you are new to Swift or have not bothered to read up on the Swift documentation, please do not contact me about Swift functionality. I just don't have the time to answer your queries about Swift. On the other hand, if you're not looking for free advice but are willing to pay for my time, do feel free to contact me :)
 
 Adding to Your Project
+---
 
 Create your SQLite database however you like, but name it data.db and then add the data.db file to your Xcode project. (If you want to name the database file something other than data.db, then change the DB_NAME constant in the SQLiteDB class accordingly.)
 
@@ -32,6 +33,7 @@ Add the SQLite library (libsqlite3.0.dylib) to your project under Build Phases -
 That's it. You're set!
 
 Usage
+---
 
 You can gain access to the shared database instance as follows:
     let db = SQLiteDB.sharedInstance()
